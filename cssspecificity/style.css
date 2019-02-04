@@ -1,0 +1,25 @@
+.class-btn{
+    background-color: maroon;
+}
+#id-btn{
+    background-color: yellow;
+}
+
+div button{
+    background-color: aquamarine;
+}
+
+button{
+    background-color: pink;
+}
+
+p button{
+    background-color: navy;
+}
+p button{
+    background-color: orange;
+}
+
+/*div button{*/
+    /*background-color: aquamarine;*/
+/*}*/

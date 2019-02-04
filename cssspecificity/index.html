@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CSS Specificity</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <h1 style="text-align: center;margin-top: 5%">CSS Specificity</h1>
+    <div class="content" style="margin-top: 5%">
+        <p>หลายๆคนคงเคยใช้ !important เมื่อเราต้องเขียน style ทับกันจะใช้ !important เพื่อเป็นตัวบอกว่าเราจะใช้อันไหนเป็นหลัก</p>
+        <p>แต่หากเรามีวิธีที่ดีกว่านั้น เรามาลองทำความรู้จักกับ CSS Specificity กันดีกว่าเพื่อชีวิตที่ดีขึ้น</p>
+        <p>CSS Specificity เป็นค่าหนึ่งที่บอก web browser ว่าจะเลือกใช้ selector อันไหนเพื่อมาใช้กับ element นั้น บน website
+            เมื่อมี selector ที่เขียนทับกัน</p>
+        <hr>
+        <p>เมื่อเรามี class และ id ที่ใช้เปลี่ยนพื้นหลังของ button เหมือนกัน ดังในรูป</p>
+        <img style="text-align: center" src="test-btn1.jpg">
+        <p style="padding-top: 10px"> ตัวอย่าง </p>
+
+        <button type="button" class="class-btn btn-lg" id="id-btn" style="padding: 10px">test1</button>
+
+
+
+        <p style="padding-top: 10px">จะเห็นได้ว่าสีของ button นั้น จะไปเลือกใช่ในส่วนของ id-btn ซึ่งเป็นสีม่วง </p>
+
+        <p>หากเราเขียน selector ที่เหมือนกัน browser จะเลือกใช้ selector ที่ถูกประกาศไว้ที่ข้างล่างสุด</p>
+        <img src="test-btn2.jpg">
+        <p style="padding-top: 10px"> ตัวอย่าง </p>
+        <p>
+            <button type="button" class="test-btn btn-lg" style="padding: 10px">test2</button>
+        </p>
+
+        <p>เมื่อเราเขียน selector ที่มีความเฉพาะเจาะจงมากขึ้น เช่นในรูป browser จะเลือกใช้อันที่มีความเฉพาะเจาะลงมากกว่า</p>
+        <img src="test-btn3.jpg">
+        <p style="padding-top: 10px"> ตัวอย่าง </p>
+
+        <div>
+            <button type="button" class="btn-lg" style="padding: 10px">test3</button>
+        </div>
+
+        <p style="padding-top: 10px">จะเห็นได้ว่าสีของ button นั้น จะไปเลือกใช่ในส่วนของ div button หมายถึง tag button ที่อยู่ใน tag div ซึ่งเป็นสีaquamarine </p>
+
+        <p
+                style="padding: 10px;font-size: 25px;color: white;background-color: black;
+                margin-bottom: 10%;margin-top: 10px;text-align: center">browser จะเลือกใช้ selector ที่ถูกประกาศไว่ล่างสุดหรือ selector ที่มีความเฉพาะเจาะจงมากที่สุด</p>
+    </div>
+</div>
+</body>
+</html>
