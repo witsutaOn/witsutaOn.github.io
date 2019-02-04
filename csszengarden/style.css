@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+#css-zen-garden{
+    background-image: url("concrete_seamless.png");
+    font-family: 'Abel', sans-serif;
+
+}
+.page-wrapper{
+    margin-left: 3%;
+    margin-right: 3%;
+}
+header[role=banner] {
+   background-image: url("Header-Laptop-on-Desk.jpg");
+   width: 100%;
+   height: 400px;
+}
+
+@keyframes example {
+    from {background-color: black;color: white}
+    to {background-color: white;color: black}
+}
+
+header[role=banner] h1{
+    background-color: black;
+    color: white;
+    width: fit-content;
+    height: 70px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 45px 10px 10px 10px;
+    position: fixed;
+    margin-left: 1.5%;
+    font-size: 30px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction:  alternate;
+}
+header[role=banner] h2{
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(255,255,255,0.8);
+    float: right;
+    margin-right: 2%;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#zen-summary {
+    background-color: white;
+    margin: 20px 15%;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+.preamble{
+    background-color: white;
+
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 10px;
+    margin-bottom: 30px;
+}
+.preamble p{
+    padding-left: 25px;
+    padding-right: 20px;
+    font-size: 18px;
+}
+
+.preamble h3{
+    background-color: black;
+    font-size: 25px;
+
+    color: white;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    margin-left: -10px;
+
+}
+
+#zen-supporting {
+    display: grid;
+
+    grid-template-columns: 1fr;
+    /*padding-left: 2%;*/
+    padding-right: 2%;
+    /*margin: auto;*/
+    grid-gap: 20px;
+    margin-left: 15%;
+    margin-right: 13%;
+}
+#zen-explanation{
+    background-color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#zen-explanation h3{
+    background-color: black;
+    font-size: 25px;
+
+    color: white;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+#zen-explanation p{
+    font-size: 18px;
+    padding-left: 20px;
+}
+#zen-participation{
+    background-color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#zen-participation h3{
+    background-color: black;
+    font-size: 25px;
+
+    color: white;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+#zen-participation p{
+    font-size: 18px;
+    padding-left: 20px;
+}
+#zen-benefits{
+    background-color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#zen-benefits h3{
+    background-color: black;
+    font-size: 25px;
+
+    color: white;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+#zen-benefits p{
+    font-size: 18px;
+    padding-left: 20px;
+}
+#zen-requirements{
+    background-color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+#zen-requirements h3{
+    background-color: black;
+    font-size: 25px;
+
+    color: white;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+#zen-requirements p{
+    font-size: 18px;
+    padding-left: 20px;
+}
+footer{
+    text-align: center; !important;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+footer a:link {
+    color: white;
+}
+footer a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+a:link{
+    text-decoration: none;
+}
+a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+a:visited {
+    color: mediumpurple;
+}
+li a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
+
+.wrapper{
+    display: grid;
+    font-size: 18px;
+    grid-template-columns: 1fr 1fr 1fr;
+    /*padding-left: 2%;*/
+    padding-right: 2%;
+    /*margin: auto;*/
+    grid-gap: 30px;
+    margin-left: 15%;
+    margin-right: 13%;
+    margin-bottom: 2%;
+}
+
+.wrapper > div{
+    background-color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+
+    background-color: white;
+
+    padding-bottom: 10px;
+    /*text-align: center;*/
+}
+#design-selection h3{
+    background-color: black;
+    font-size: 25px;
+
+    color: white;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+
+#design-archives h3{
+    background-color: black;
+    font-size: 25px;
+
+    color: white;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+
+#zen-resources h3{
+    background-color: black;
+    font-size: 25px;
+
+    color: white;
+    width: fit-content;
+    text-align: center;
+    padding: 10px;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+
+@media only screen and (max-width: 900px) {
+
+    header[role=banner] h1{
+        padding-top: 1%;
+        text-align: center;
+        padding-top: 40px;
+        position: inherit;
+        margin: auto;
+    }
+    header[role=banner] {
+        background-image: url("Header-Laptop-on-Desk.jpg");
+        width: 100%;
+        height: 200px;
+
+    }
+    header[role=banner] h2{
+        padding: 10px;
+        border-radius: 10px;
+        float: none;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        text-align: center;
+        background-color: rgb(255,255,255,0.7);
+    }
+
+
+}
+@media only screen and (max-width: 1100px) {
+    .wrapper{
+        display: grid;
+        font-size: 18px;
+        grid-template-columns: 1fr ;
+        /*padding-left: 2%;*/
+        padding-right: 2%;
+        /*margin: auto;*/
+        grid-gap: 30px;
+        margin-left: 15%;
+        margin-right: 13%;
+        margin-bottom: 5%;
+    }
+}
